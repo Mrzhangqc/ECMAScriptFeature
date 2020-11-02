@@ -85,7 +85,7 @@
     console.log("---------- 正则表达式s修饰符 -----------")
     const regStr = 'ecmascript\nnew\nfeature'
     const sReg = /ecmascript./s
-    console.log(`ecmascript\\nnew\\nfeature 使用s修饰符用.匹配\\n`, JSON.stringify(regStr.match(sReg)));
+    console.log(`ecmascript\\nnew\\nfeature 使用s修饰符用.匹配\\n: `, JSON.stringify(regStr.match(sReg)));
     console.log('---------------------------------', '\n')
   
   // Template Literal Revision

@@ -7,6 +7,7 @@
     "es2020": "cd out && node es2020",
     "es2019": "cd out && node es2019",
     "es2018": "cd out && node es2018",
+    "es2017": "cd out && node es2017",
     "babel": "npx babel src --out-dir out",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
